@@ -41,10 +41,16 @@ header {
 }
 
 #links a {
-
     text-decoration: none;
     color: crimson;
     font-size: 1.2rem;
+    border-bottom: 3px solid transparent;
+    border-radius: 6px;
+    transition: 0.5s ease-in-out;
 }
 
-
+#links a:hover {
+    border-bottom: 3px solid white;
+    color: white;
+    transform: scale(1.1);
+}
